@@ -1,0 +1,129 @@
+body{
+    background-color: beige;
+}
+.bar {
+    display: flex;                 
+    height: 50px;
+    background-color: rgb(9, 9, 9);
+    color: white;
+    justify-content: space-between;
+}
+.bar img {
+    width: 80px;
+    height: 45px;
+}
+.bar1{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: large;
+}
+.bar1:hover{
+    background-color: rgb(44, 86, 50);
+}
+.searchbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+button{
+    border-radius: 20px;
+        gap: 5px;
+
+}
+.parent{
+    display: flex;
+    position: relative;
+}
+.child1{
+width: 300px;
+height: 800px;
+background-color: black;
+    overflow-y: scroll;
+
+}
+.child1 button{
+    width: 150px;
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 5PX; 
+}
+
+h3{
+        color: white;
+ font-size: large;
+    font-weight: bold;
+}
+h3:hover{
+    color: bisque;
+    background-color: rgb(35, 87, 67);
+}
+a{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+.child2{ 
+    width: 1000px;
+height:900px;
+background-color: rgb(45, 45, 46);
+padding-left: 15px;
+padding-right: 15px;
+overflow-y: hidden;
+
+}
+h4{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 40px;
+    color: white;
+    
+
+
+}
+h4:hover{
+    color: bisque;
+    background-color: black;
+}
+div p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: larger;
+        color: white;
+        line-height: 30px;
+
+}
+
+.child3{
+    width: 300px;
+height: 800px;
+background-color: black;
+position:fixed;
+position: relative;
+}
+.child3p1{
+color: white;
+font-family: 'Times New Roman', Times, serif;
+padding-left: 5px;
+font-style: italic;
+}
+.child3 .child3p1 p{
+    color: white;
+font-family: 'Times New Roman', Times, serif;
+font-size:15px ;
+}
+.child3 img{
+      height: 250px;
+    width:180px ;
+    position: absolute;
+    left: 25px;
+}
+.child3 h5{
+color: white;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+font-size:25px ;
+}
+
+
